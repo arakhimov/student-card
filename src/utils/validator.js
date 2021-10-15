@@ -12,7 +12,7 @@ export default function validator(data, config) {
         break;
       case "isUrl":
         {
-          const urlRegExp = /^https?:\/\/\w+\.[a-z]{2,4}(\/[\w/]+)?$/;
+          const urlRegExp = /^https?:\/\/[\w.-_]+\.[a-z]{2,4}(\/[\w-_/]+)*$/;
           validateStatus = !urlRegExp.test(data);
         }
         break;

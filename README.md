@@ -19,5 +19,7 @@
 
 Стилизация выполнена с помощью CSS фреймворка Bootsrap.
 
+Для сохранения данных используется localStorage.
+
 Использовались технологии и интсрументы:
 JS, CSS, HTML, WebPack, GIT, React, Bootstrap, ESLint, Prettier.

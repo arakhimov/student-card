@@ -8,6 +8,18 @@ const StudentCard = ({ data, history }) => {
     history.push("/edit");
   };
 
+  const getFullYears = (bornYear) => {
+    const diff = new Date().getFullYear() - bornYear;
+    let yearAmountString;
+    if (diff >= 5 && diff <= 20) {
+      yearAmountString = "лет";
+    } else {
+      yearAmountString = /\d*[234]/.test(String(diff)) ? "года" : "лет";
+    }
+
+    return `${bornYear} (${diff} ${diff === 1 ? "год" : yearAmountString})`;
+  };
+
   return (
     <div className="col-md-6 offset-md-3">
       {data ? (
@@ -27,9 +39,7 @@ const StudentCard = ({ data, history }) => {
             <li className="list-group-item border-0 mb-2 p-0">
               <span className="fw-bold">{`${data.date.description}:`}</span>
               &nbsp;
-              {`${data.date.value} (${
-                new Date().getFullYear() - data.date.value
-              } года)`}
+              {getFullYears(data.date.value)}
             </li>
             <li className="list-group-item border-0 mb-2 p-0">
               <span className="fw-bold">{`${data.portfolio.description}:`}</span>
