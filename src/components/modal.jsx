@@ -7,7 +7,7 @@ const Modal = () => {
       <div className="col-md-4 offset-md-0 bg-light rounded-3 m-0">
         <p className="text-success p-3 m-0">Обновлено!</p>
         <div className="container d-flex justify-content-end border w-100">
-          <Link to="/">
+          <Link to="/student-card">
             <button type="button" className="btn text-primary">
               close
             </button>

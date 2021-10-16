@@ -6,12 +6,12 @@ const NavBar = () => {
     <nav className="main-nav mb-2 col-md-6 offset-md-3">
       <ul className="nav">
         <li className="nav-item">
-          <Link className="nav-link active px-0" to="/">
+          <Link className="nav-link active px-0" to="/student-card">
             Главная
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/edit">
+          <Link className="nav-link" to="/student-card/edit">
             Редактировать
           </Link>
         </li>

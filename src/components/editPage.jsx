@@ -79,12 +79,12 @@ const EditPage = ({ data: initialData, getData, history }) => {
     if (initialData) {
       setIsEdit(true);
     } else {
-      history.push("/");
+      history.push("/student-card");
     }
   };
 
   const handleMoveToCard = () => {
-    history.push("/");
+    history.push("/student-card");
   };
 
   return (

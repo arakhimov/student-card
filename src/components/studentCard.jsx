@@ -4,10 +4,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const StudentCard = ({ data, history }) => {
-  const handleAddDate = () => {
-    history.push("/edit");
-  };
-
   const getFullYears = (bornYear) => {
     const diff = new Date().getFullYear() - bornYear;
     let yearAmountString;
@@ -47,7 +43,7 @@ const StudentCard = ({ data, history }) => {
               {data.portfolio.value}
             </li>
           </ul>
-          <Link to="/edit">
+          <Link to="/student-card/edit">
             <button className="btn bg-primary px-3 text-light">
               Редактировать
             </button>
@@ -56,13 +52,11 @@ const StudentCard = ({ data, history }) => {
       ) : (
         <div>
           <p>нет данных</p>
-          <button
-            className="btn btn-primary mt-1"
-            type="button"
-            onClick={handleAddDate}
-          >
-            Добавить данные
-          </button>
+          <Link to="/student-card/edit">
+            <button className="btn btn-primary mt-1" type="button">
+              Добавить данные
+            </button>
+          </Link>
         </div>
       )}
     </div>
