@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/student-card/static/js/main.96bf1f00.chunk.js",
-    "main.js.map": "/student-card/static/js/main.96bf1f00.chunk.js.map",
+    "main.js": "/student-card/static/js/main.011d5809.chunk.js",
+    "main.js.map": "/student-card/static/js/main.011d5809.chunk.js.map",
     "runtime-main.js": "/student-card/static/js/runtime-main.ac2166ac.js",
     "runtime-main.js.map": "/student-card/static/js/runtime-main.ac2166ac.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/student-card/static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.e133280e.chunk.js": "/student-card/static/js/2.e133280e.chunk.js",
-    "static/js/2.e133280e.chunk.js.map": "/student-card/static/js/2.e133280e.chunk.js.map",
+    "static/js/2.8e55c1f0.chunk.js": "/student-card/static/js/2.8e55c1f0.chunk.js",
+    "static/js/2.8e55c1f0.chunk.js.map": "/student-card/static/js/2.8e55c1f0.chunk.js.map",
     "index.html": "/student-card/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/student-card/static/css/2.8c0e6b67.chunk.css.map",
-    "static/js/2.e133280e.chunk.js.LICENSE.txt": "/student-card/static/js/2.e133280e.chunk.js.LICENSE.txt"
+    "static/js/2.8e55c1f0.chunk.js.LICENSE.txt": "/student-card/static/js/2.8e55c1f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ac2166ac.js",
     "static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.e133280e.chunk.js",
-    "static/js/main.96bf1f00.chunk.js"
+    "static/js/2.8e55c1f0.chunk.js",
+    "static/js/main.011d5809.chunk.js"
   ]
 }
