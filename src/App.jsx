@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import EditPage from "./components/editPage";
 import NavBar from "./components/navBar";
 import StudentCard from "./components/studentCard";
@@ -31,7 +31,6 @@ function App() {
           <EditPage data={data} getData={handleGetData} {...props} />
         )}
       />
-      <Redirect to="/student-card" />
     </Router>
   );
 }

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
 
-const StudentCard = ({ data, history }) => {
+const StudentCard = ({ data }) => {
   const getFullYears = (bornYear) => {
     const diff = new Date().getFullYear() - bornYear;
     let yearAmountString;
@@ -64,8 +64,7 @@ const StudentCard = ({ data, history }) => {
 };
 
 StudentCard.propTypes = {
-  data: PropTypes.object,
-  history: PropTypes.object
+  data: PropTypes.object
 };
 
 export default StudentCard;
